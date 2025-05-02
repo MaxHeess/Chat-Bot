@@ -29,7 +29,7 @@ class ChatBot:
                     highest_score = score
                     best_match = entry
 
-        if highest_score >= 80:
+        if highest_score >= 60:
             return best_match["response"]
         else:
             return "Entschuldigung, dazu habe ich leider keine passende Antwort. Bitte kontaktieren Sie den Support."
